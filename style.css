@@ -46,3 +46,26 @@ footer {
     padding: 1em 0;
     text-align: center;
 }
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Apply the animation to the header and nav elements */
+header, nav {
+    animation: fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+}
+
+/* Add a hover effect to navigation links for interactivity */
+nav a {
+    transition: color 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the logo for a slight increase in size */
+header img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
