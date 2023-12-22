@@ -170,7 +170,7 @@ form input[type="submit"]:hover {
 /* Carousel container styles */
 .carousel-container {
     width: 100%;
-    max-width: 600px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
     margin: auto;
     overflow: hidden;
 }
