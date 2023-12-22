@@ -186,6 +186,6 @@ form input[type="submit"]:hover {
     width: 100%;
     display: block;
     object-fit: cover; /* Cover the slide area, may crop some parts of the image */
-    object-position: center; /* Centers the image */
+    object-position: left; /* Centers the image */
     transition: transform 0.5s ease-in-out;
 }
