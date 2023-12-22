@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,26 +24,44 @@
     <main>
         <section id="featured-products">
             <h2>Featured Creations</h2>
-            <p>Immerse yourself in the artistry of Aleana Ceramics, where each piece tells a story of passion and craftsmanship. Our collection is a tribute to the timeless beauty of nature, meticulously shaped and glazed by hand to bring a touch of elegance to your home.</p>
+            <p>Immerse yourself in the artistry of Aleana Ceramics...</p>
         </section>
-        <!-- Image Carousel Section -->
+        
+        <!-- Swiper Carousel Section -->
         <section id="carousel">
-            <div class="carousel-container">
-                <div class="carousel-slide">
-                    <img src="image1.jpg" alt="Image 1">
-            </div>
-                <div class="carousel-slide">
-                    <img src="image2.jpg" alt="Image 2">
-            </div>
-                <div class="carousel-slide">
-                    <img src="image3.jpg" alt="Image 3">
-            </div>
-        <!-- Add more slides as needed -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
+                    <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
+                    <div class="swiper-slide"><img src="image3.jpg" alt="Image 3"></div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2023 Aleana Ceramics. All rights reserved.</p>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 </html>
+``
