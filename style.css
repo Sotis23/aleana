@@ -169,8 +169,8 @@ form input[type="submit"]:hover {
 
 /* Carousel container styles */
 .carousel-container {
-    width: 90%;
-    max-width: 400px; /* Adjust as needed */
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
     margin: auto;
     overflow: hidden;
 }
@@ -186,6 +186,6 @@ form input[type="submit"]:hover {
     width: 100%;
     display: block;
     object-fit: cover; /* Cover the slide area, may crop some parts of the image */
-    object-position: left; /* Centers the image */
+    object-position: center; /* Centers the image */
     transition: transform 0.5s ease-in-out;
 }
