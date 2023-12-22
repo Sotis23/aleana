@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleana Ceramics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Aleana Ceramics Logo">
+        <h1>Aleana Ceramics</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id="featured-products">
+            <h2>Featured Creations</h2>
+            <p>Explore our unique handmade ceramic collection, inspired by nature and crafted with love.</p>
+            <!-- Insert more content and images here -->
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Discover the story behind Aleana Ceramics and our passion for creating.</p>
+            <!-- Insert more content and images here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Aleana Ceramics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
