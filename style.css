@@ -101,3 +101,50 @@ header img:hover {
 .product-card:hover {
     transform: translateY(-5px); /* Slight lift effect on hover */
 }
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical; /* Allows vertical resizing */
+}
+
+form input[type="submit"] {
+    background-color: #CDB79E; /* Earthy brown from the logo */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #8B7D6B; /* Darker shade for hover effect */
+}
+
